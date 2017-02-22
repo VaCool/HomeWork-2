@@ -1,0 +1,54 @@
+div{
+	display: inline-block;
+	height: 5vh;
+	padding: 0px;
+	padding-left: 30%;
+	padding-right: 30%;
+}
+.leftstr, .rightstr{
+	float: left;
+	width: 50%;
+	margin: 0px;
+}
+.rightstr{
+	text-align: right;
+}
+.Project{
+		display: block;
+		margin: 0px;
+		margin-bottom: 10px;
+		padding-bottom: 10px;
+		color: grey;
+		font-size: 200%;	
+}
+.ProgectButton{
+	background: white;
+	color: blue;
+	padding: 10px 20px;
+	border-radius: 6px;
+	border: 0;
+}
+.ProgectButton:focus{
+	background: blue;
+	color: white;
+}
+.Jumbotron{
+	display: block;
+	background: grey;
+	height: 100%;
+	text-align: center;
+	font-size: 125%;
+} 
+h1 {
+	font-size: 250%;	
+	line-height: 0.1;
+}
+
+.JumbotronButton{
+	background: green;
+	color: white;
+	padding: 15px 40px;
+	border-radius: 6px;
+	border: 0;
+	font-size: 125%;
+}
